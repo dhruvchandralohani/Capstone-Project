@@ -78,7 +78,7 @@ def main():
         test_size = params['data_ingestion']['test_size']
         # test_size = 0.2
         
-        # s3 = s3_connection.s3_operations("s3-demo-bucket-reviews", "AKIA2ADFOP4YKCVBXCR5", "a+krLy9BIRlI57VBrBR8NEEjijNYcTxHBYt5eSqO")
+        # s3 = s3_connection.s3_operations("s3-demo-bucket-reviews", "*", "*")
         # df = s3.fetch_file_from_s3("data.csv")
         df = pd.read_csv(r"D:\Virtual Environments\PyTorch\Projects\MLOPS\Capstone-Project\notebooks\data.csv")
 
